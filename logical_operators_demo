@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    int a=10;
+    int b=20;
+
+    if(a > 0 && b > 0){
+        printf("Both the values are a positive \n");
+    }
+    if(a < 0 || b > 0)
+    {
+        printf("At least one is True \n");
+    }
+    if (!(a > 10)) {
+        printf("a is NOT greater than 10.\n");
+    }
+        return 0;
+
+}
+
+// output:
+Both the values are a positive 
+At least one is True 
+a is NOT greater than 10.
