@@ -1,0 +1,14 @@
+#include<stdio.h>
+    int main()
+    {
+        int area,radius;
+        printf("Enter an interger :");
+        scanf("%d",&radius);
+
+        area = 3.14*radius*radius;
+        printf("Area of circle : %d\n",area);
+    }
+
+output:
+Enter an interger :3
+Area of circle : 28
