@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+    int main()
+    {
+        int a=100;
+        printf("value of a %d\n",a);
+        float f =(float)a; // typecasting 
+        printf("After done operation the value of a = %f",f/2);
+    }
