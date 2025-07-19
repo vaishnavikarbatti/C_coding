@@ -1,0 +1,14 @@
+#include<stdio.h>
+    int main()
+    {
+        int area,side;
+        printf("Enter an interger :");
+        scanf("%d",&side);
+
+        area =side*side;
+        printf("Area of Square : %d\n",area);
+    }
+
+output:-
+Enter an interger :4
+Area of Square : 16
