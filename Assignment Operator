@@ -1,0 +1,15 @@
+#include<stdio.h>
+    int main()
+    {
+        int a=100;
+
+        printf("Assignment Op   : %d\n",a);
+        a-=5;
+        printf("After Opeartion : %d\n",a);
+        a+=67;
+        printf("After Opeartion : %d\n",a);
+        a*=10;
+        printf("After Opeartion : %d\n",a);
+        a/=5;
+        printf("After Opeartion : %d\n",a);
+    }
