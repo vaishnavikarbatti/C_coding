@@ -1,0 +1,16 @@
+#include<stdio.h>
+    int main()
+    {
+        int area,width,height;
+        printf("Enter an interger :");
+        scanf("%d",&width);
+        printf("Enter an interger :");
+        scanf("%d",&height);
+
+        area =height*width;
+        printf("Area of Rectangle : %d\n",area);
+    }
+output:-
+Enter an interger :3
+Enter an interger :4
+Area of Rectangle : 12
