@@ -1,0 +1,30 @@
+#include<stdio.h>
+    int main()
+    {
+        int num1,num2,num3;
+        printf("Enter 1st number :");
+        scanf("%d",&num1);
+        printf("Enter 2nd number :");
+        scanf("%d",&num2);
+        printf("Enter 3rd number :");
+        scanf("%d",&num3);
+
+        if(num1 >= num2 && num1>=num3 )
+        {
+            printf("1st number is larger ");
+        }
+        else if(num2 >=num1 && num2 >= num3)
+        {
+            printf("2nd number is larger ");
+        }
+        else{
+            printf("3rd number is larger ");
+        }
+    }
+
+output:-
+
+Enter 1st number :4
+Enter 2nd number :6
+Enter 3rd number :12
+3rd number is larger
