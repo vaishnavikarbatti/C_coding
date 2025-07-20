@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("Enter 1st values :");
+    scanf("%d",&a);
+    printf("Enter 2nd values :");
+    scanf("%d",&b);
+
+    if(a > b)
+    {
+        printf("First value is larger");
+    }
+    else if(b > a)
+    {
+        printf("Second value is larger");
+    }
+    else{
+        printf("Invalid");
+    }
+}
+
+output :-
+Enter 1st values :23
+Enter 2nd values :45
+Second value is larger
