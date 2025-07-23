@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(int i=0;i<=10;i++)
+    {
+    printf("hello world \n");
+    }
+}
+
+output:-
+Enter an number :5
+Natural numbers of 5 is: 15
