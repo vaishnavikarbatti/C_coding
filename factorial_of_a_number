@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int sum =0;
+    int n;
+    printf("Enter an number :");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        sum+=i;
+    }
+        printf("Natural numbers of %d is: %d\n", n, sum);  
+}
+
+
+output:-
+Enter an number :5
+Natural numbers of 5 is: 15
