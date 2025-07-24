@@ -1,0 +1,31 @@
+/* #include<stdio.h>
+    void square()
+    {
+        int side;
+        int area;
+        printf("Enter an side :");
+        scanf("%d",&side);
+
+        area = side* side;
+        printf("Area of square :%d",area);
+
+    }
+    int main()
+    {
+        square();
+    } */
+
+    #include<stdio.h>
+
+        void square(int side)
+        {
+            int area;
+            area=side*side;
+            printf("Area of square :%d",area);
+        }
+        int main()
+        {
+            square(5);
+        }  
+output:-
+Area of square :25
