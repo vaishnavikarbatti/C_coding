@@ -1,0 +1,45 @@
+/* #include<stdio.h>
+
+void factorial()
+{
+    int fact=1;
+    int num;
+    printf("Enter an values :");
+    scanf("%d",&num);
+
+    for(int i=1;i<=num;i++)
+    {
+        fact*=i;
+
+    }
+    printf("Factorial of %d is: %d\n", num, fact);
+}
+
+int main()
+{
+    factorial();
+} */
+
+#include<stdio.h>
+
+void factorial( )
+{
+    int fact=1;
+    int num;
+    printf("Enter the value :");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++)
+    {
+        fact*=i;
+
+    }
+    printf("Factorial of %d is: %d\n", num, fact);
+}
+
+int main()
+{
+    factorial();
+}
+
+output:-Enter the value :5
+Factorial of 5 is: 120
