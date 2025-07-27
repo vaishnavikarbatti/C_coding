@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int seen[10] = {0}; // To track digits 0-9
+    int n;
+    
+    printf("Enter the number: ");
+    scanf("%d", &n);
+
+    int rem;
+    int isDuplicate = 0;
+
+    while (n > 0) {
+        rem = n % 10;
+        if (seen[rem] == 1) {
+            isDuplicate = 1;
+            break;
+        }
+        seen[rem] = 1; // Mark digit as seen
+        n = n / 10;
+    }
+
+    if (isDuplicate)
+        printf("Duplicate digit found!\n");
+    else
+        printf("No duplicate digits.\n");
+
+    return 0;
+}
+
+output:-
+Enter the number: 12345
+No duplicate digits.
+
+Enter the number: 12234
+Duplicate digit found!
