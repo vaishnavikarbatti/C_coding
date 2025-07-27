@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+void print(int n, int x)
+{
+    if(x > n)
+        return;
+    printf("%d ", x);
+    print(n, x + 1);
+}
+
+int main()
+{
+    int n;
+    printf("Enter a value of n: ");
+    scanf("%d", &n);
+    print(n, 1);
+    return 0;
+}
+
+output:-
+Enter a value of n: 5
+1 2 3 4 5 
