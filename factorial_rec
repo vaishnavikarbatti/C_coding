@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int fact(int num) 
+{
+    if (num == 1)
+        return 1;    
+    return num + fact(num-1);
+}
+
+int main()
+{
+    int num;
+    printf("Enter an value :");
+    scanf("%d", &num);
+
+    printf("fact of numbers from 1 to %d is: %d\n", num, fact(num));
+    return 0;
+}
+
+output:-
+
+Enter an value :3
+fact of numbers from 1 to 3 is: 6
