@@ -1,0 +1,38 @@
+/* #include<stdio.h>
+
+void even_odd()
+{
+    int num;
+    printf("Enter an integer :");
+    scanf("%d",&num);
+
+    if(num % 2 == 0)
+    {
+        printf("Even");
+    }
+    else{
+        printf("odd");
+    }
+}
+int main()
+{
+    even_odd();
+} */
+
+
+#include<stdio.h>
+
+void even_odd(int num)
+{
+    if(num % 2 == 0)
+    {
+        printf("Even");
+    }
+    else{
+        printf("odd");
+    }
+}
+int main()
+{
+    even_odd(89);
+}
