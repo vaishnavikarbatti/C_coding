@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int sum(int num) 
+{
+    if (num == 1)
+        return 1;
+
+    int recAns = num + sum(num - 1);
+    return recAns;
+}
+
+int main()
+{
+    int num;
+    printf("Enter a value: ");
+    scanf("%d", &num);
+
+    printf("Sum of numbers from 1 to %d is: %d\n", num, sum(num));
+    return 0;
+}
+
+
+output:-
+Enter a value: 5
+Sum of numbers from 1 to 5 is: 15
